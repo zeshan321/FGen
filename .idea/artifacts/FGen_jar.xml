@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FGen:jar">
+    <output-path>$PROJECT_DIR$/../../MC/1.12/plugins</output-path>
+    <root id="archive" name="FGen.jar">
+      <element id="module-output" name="FGen" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

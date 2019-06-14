@@ -1,0 +1,43 @@
+# In seconds.
+AFK:
+  MiningReductions:
+    20: 0
+    15: 20
+    10: 50
+    5: 95
+  Display:
+    # Amount of seconds before action bar is displayed to user.
+    Threshold: 1
+    ActionBar: "&6&l» &eYou have been AFK for &f%hours%hrs, %mins%mins, %seconds%seconds. &6&l«"
+  DisabledWorlds:
+    - SampleWorld
+
+Burn:
+  Item: FLOWER_POT
+  x: 16
+  y: 8
+  z: 16
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+  DamageTypes:
+    - FIRE_TICK
+    - FIRE
+    - LAVA
+    - LIGHTNING
+  DisabledWorlds:
+    - SampleWorld
+
+# Permission: FGen.groups.<group name> i.e FGen.groups.Common
+Groups:
+  - Common
+
+# For best results total should equal 100.
+# Common = 83.01% total. 16.99% will be cobblestone on default.
+Common:
+  COAL_ORE: 24
+  STONE: 20
+  IRON_ORE: 13
+  GOLD_ORE: 10
+  REDSTONE_ORE: 8
+  LAPIS_ORE: 5
+  EMERALD_ORE: 3
+  DIAMOND_ORE: 0.01

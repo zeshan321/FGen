@@ -1,0 +1,4 @@
+name: FGen
+main: com.zeshanaslam.fgen.Main
+version: 1.0.0
+softdepend: [ASkyBlock, FabledSkyBlock]
